@@ -1,0 +1,46 @@
+.footer-main {
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(75, 75, 75);
+}
+
+.footer-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.footer-email {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-credits {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.footer-credits a {
+  color: rgb(90, 212, 124);
+  text-decoration: none;
+}
+
+.footer-credits a:hover {
+  color: rgb(90, 212, 124);
+  text-decoration: none;
+}
+
+.illustrations {
+  margin-top: 0.5rem;
+}
+
+.illustrations a {
+  font-size: 0.7rem;
+  color: white;
+}

@@ -1,0 +1,7 @@
+.navbar-main a {
+  color: white;
+}
+
+.navbar-main a:hover {
+  color: rgb(90, 212, 124);
+}

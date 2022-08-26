@@ -1,0 +1,99 @@
+.social-tabs {
+  position: fixed;
+  top: 40vh;
+  cursor: pointer;
+}
+.react-icons {
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  font-size: 26px;
+}
+.spacer {
+  flex-grow: 1;
+}
+
+/* LinkedIn */
+.social-tabs-linkedin {
+  height: 40px;
+  width: 145px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(17, 121, 175);
+  font-family: sans-serif;
+  transform: translateX(-70%);
+  transition: transform 0.2s ease-in;
+}
+.linkedin-text {
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+.linkedin-icon {
+  color: white;
+  padding-right: 10px;
+}
+.social-tabs-linkedin:hover {
+  transform: translateX(0%);
+}
+
+/* GitHub */
+.social-tabs-github {
+  height: 40px;
+  width: 145px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(50, 50, 50);
+  font-family: sans-serif;
+  transform: translateX(-70%);
+  transition: transform 0.2s ease-in;
+}
+.github-text {
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+.github-icon {
+  color: white;
+  padding-right: 10px;
+}
+.social-tabs-github:hover {
+  transform: translateX(0%);
+}
+
+/* Calendly */
+.social-tabs-calendly {
+  height: 40px;
+  width: 145px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: orange;
+  font-family: sans-serif;
+  transform: translateX(-70%);
+  transition: transform 0.2s ease-in;
+}
+.calendly-text {
+  color: black;
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+.calendly-icon {
+  color: black;
+  padding-right: 10px;
+}
+.social-tabs-calendly:hover {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 768px) {
+  .social-tabs {
+    display: none;
+  }
+}
+
+
+
+

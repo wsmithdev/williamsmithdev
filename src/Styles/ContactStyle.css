@@ -1,0 +1,52 @@
+.contact-main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  text-align: left;
+}
+
+.contact-main h1 {
+  color: black;
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+
+.contact-main input,
+.contact-main textarea {
+  margin-bottom: 0.3rem;
+  border: none;
+}
+
+.contact-main input:focus,
+.contact-main textarea:focus {
+  outline: none;
+  border: 2px solid rgb(90, 212, 124);
+  box-shadow: none;
+}
+
+.contact-btn {
+  width: 10rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: 1px solid rgb(90, 212, 124);
+  color: rgb(75, 75, 75);
+  background-color: rgb(90, 212, 124);
+}
+
+.first-input input {
+  background-color: rgba(90, 212, 124, 0.2);
+}
+
+.second-input input {
+  background-color: rgba(90, 212, 124, 0.4);
+}
+
+.third-input textarea {
+  background-color: rgba(90, 212, 124, 0.6);
+}

@@ -1,0 +1,87 @@
+.projects-main {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.projects-main h1 {
+  color: black;
+  font-size: 3rem;
+  margin: 4rem 0;
+}
+
+.project {
+  background-color: rgb(75, 75, 75);
+}
+
+.project:last-child {
+  margin-bottom: 6rem;
+}
+
+.project-info,
+.project-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 30rem;
+}
+
+.project-image {
+  background-color: black;
+}
+
+.project-image img {
+  width: 100%;
+  height: 30rem;
+}
+
+.project-title {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.project-technologies {
+  font-size: 1.1rem;
+  padding: 1rem 0 0 0;
+}
+
+.project-desc {
+  color: white;
+  padding: 1rem 2rem;
+}
+.project-desc a {
+  color: rgb(90, 212, 124);
+}
+.project-desc a:hover {
+  color: rgb(90, 212, 124);
+}
+
+.project-btn {
+  width: 10rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.project-btn:hover {
+  scale: 1.1;
+}
+
+.btn-primary {
+  border: 1px solid rgb(90, 212, 124);
+  color: rgb(75, 75, 75);
+  background-color: rgb(90, 212, 124);
+}
+
+.btn-secondary {
+  border: 1px solid rgb(90, 212, 124);
+  color: rgb(90, 212, 124);
+  background-color: transparent;
+}
